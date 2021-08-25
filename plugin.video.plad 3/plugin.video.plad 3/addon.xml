@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.plad" name="Premier AD Live" version="1.4.2" provider-name="PLAD fusen DivingMule">
+  <requires>
+    <import addon="xbmc.python" version="2.7"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.simple.downloader" version="0.9.1"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Premier AD Live</summary>
+    <description>Plugin to watch Premier AD Live sport streams</description>
+    <platform>all</platform>
+  </extension>
+</addon>
